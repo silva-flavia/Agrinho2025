@@ -85,6 +85,30 @@ input:checked + label {
     width: 600px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+  
+}
 input:checked + label .description {
     opacity: 1 !important;
     transform: translateY(0) !important;
